@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Chanel - Casino Online</title>
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="styles_actualizado.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+    <section class="hero">
+        <div class="logo-texto">
+            <div class="pica">♠</div>
+            <h1>GOLDEN CHANEL</h1>
+        </div>
+
+        <p>Experimentá la emoción del casino en línea más exclusivo</p>
+        <a href="https://wa.me/XXXXXXXXXXX?text=Hola!%20Quiero%20registrarme%20en%20Golden%20Chanel" target="_blank" class="btn btn-golden pulse-btn">
+            <i class="fab fa-whatsapp"></i> ¡Registrate y jugá ahora!
+        </a>
+
+
+    </section>
+
+    <section class="benefits fade-in">
+        <h2 class="section-title">¿Por qué elegirnos?</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 benefit-item">
+                    <i class="fas fa-gift"></i>
+                    <h4>Bonos Exclusivos</h4>
+                    <p>Recibí bonos de bienvenida y promociones especiales.</p>
+                </div>
+                <div class="col-md-3 benefit-item">
+                    <i class="fas fa-money-bill-wave"></i>
+                    <h4>Pagos Rápidos</h4>
+                    <p>Retirá tus ganancias de forma segura y veloz.</p>
+                </div>
+                <div class="col-md-3 benefit-item">
+                    <i class="fas fa-headset"></i>
+                    <h4>Soporte 24/7</h4>
+                    <p>Estamos disponibles para vos en cualquier momento.</p>
+                </div>
+                <div class="col-md-3 benefit-item">
+                    <i class="fas fa-dice"></i>
+                    <h4>Juegos Premium</h4>
+                    <p>Disfrutá de ruletas, slots y mucho más en alta calidad.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="games py-5" style="background-color:#0d0d0d;">
+        <div class="container">
+            <h2 class="section-title">Juegos Destacados</h2>
+            <div class="row text-center">
+                <div class="col-md-3 col-6 mb-4">
+                    <div class="card bg-dark text-white border-0 shadow">
+                        <div class="card-img-wrapper">
+                            <img src="imagenes/ruleta.webp" class="card-img" alt="Ruleta">
+                            <div class="card-title-overlay">
+                                <h5 class="card-title">Ruleta en Vivo</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 mb-4">
+                    <div class="card bg-dark text-white border-0 shadow">
+                        <div class="card-img-wrapper">
+                            <img src="imagenes/slots.webp" class="card-img" alt="Tragamonedas">
+                            <div class="card-title-overlay">
+                                <h5 class="card-title">Tragamonedas</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 mb-4">
+                    <div class="card bg-dark text-white border-0 shadow">
+                        <div class="card-img-wrapper">
+                            <img src="imagenes/blackjack.webp" class="card-img" alt="Blackjack">
+                            <div class="card-title-overlay">
+                                <h5 class="card-title">Blackjack</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 mb-4">
+                    <div class="card bg-dark text-white border-0 shadow">
+                        <div class="card-img-wrapper">
+                            <img src="imagenes/Deportes.webp" class="card-img" alt="Apuestas Deportivas">
+                            <div class="card-title-overlay">
+                                <h5 class="card-title">Apuestas Deportivas</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+</div>
+
+        </div>
+    </section>
+
+    <footer class="footer text-center py-4">
+        <div class="container">
+            <p class="mb-2">© 2025 Golden Chanel. Todos los derechos reservados.</p>
+            <div class="social-icons">
+                <a href="#" class="me-3"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="me-3"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const fadeIns = document.querySelectorAll('.fade-in');
+
+            const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target);
+                }
+            });
+            }, {
+            threshold: 0.1
+            });
+
+            fadeIns.forEach(el => observer.observe(el));
+        });
+    </script>
+
+</body>
+</html>
